@@ -1,0 +1,13 @@
+/* your styles go here */
+.navigation li {
+    display: inline;
+}
+
+h6 {
+    display: inline;
+}
+
+.fab, .fas {
+    font-size: 3vw;
+    color: white;
+}

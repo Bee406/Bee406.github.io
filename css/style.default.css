@@ -71,21 +71,6 @@ h4.heading:after {
 }
 .box {
   margin-bottom: 30px;
-
-}
-
-.portfolio-img {
-  opacity: .7;
-  border: 1px solid linen;
-}
-.portfoliotxt{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  font-size: 3vw;
 }
 .content {
   position: relative;
@@ -191,7 +176,7 @@ p.social a.email {
 }
 #page1 {
   text-align: center;
-  background: url('../img/page1.JPG') center center no-repeat;
+  background: url('../img/macbook-juice.jpg') center center no-repeat;
   background-size: cover;
   color: #fff;
 }

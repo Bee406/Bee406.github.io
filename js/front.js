@@ -8,7 +8,6 @@ $(function () {
 
 /* for demo purpose only - can be deleted */
 
-$("#socialTags").hide();
 function demo() {
 
     $("#page").change(function () {
@@ -171,28 +170,3 @@ $(window).resize(function () {
     }
 
 });
-
-var i = 0;
-var txt = "I'm Kim Clary."; /* The text */
-var speed = 150; /* The speed/duration of the effect in milliseconds */
-
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("introText").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-  else if (i===txt.length){
-          $("#socialTags").show();
-  }
-  
-}
-
-var loadSpeed = 700;
-$(window).on("load", setTimeout(typeWriter, loadSpeed));
-
-
-
-
-
-

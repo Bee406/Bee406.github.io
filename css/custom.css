@@ -3,7 +3,7 @@
     font-family: 'Dancing Script', cursive;
     font-size: 50px;
 }
-h2, h3, h6 b, p, a, .standard, .nav-item {
+h2, h3, h6 b, p, a, .standard {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -65,6 +65,16 @@ img {
     margin-bottom: 40px;
 }
 
+
+@media (max-width: 767.98px) {
+    .modal-photo {
+        width: 100%
+    }
+    .cls-btn {
+        position: absolute
+    }
+}
+
 .modal-links {
     background-color: #eee;
     padding-top: 20px;
@@ -75,16 +85,13 @@ img {
     margin-bottom: 10px;
 }
 
-.linkedin, .email{
-    background-color:	#808080
+.contact-btn{
+    background-color:	#eee
 }
 
-.github {
-    background-color: #000000
-}
 
-.fa {
-    color: white;
+.fa, .fab {
+    color: black;
 }
 
 .center-txt {
